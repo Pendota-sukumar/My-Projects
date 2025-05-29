@@ -41,8 +41,79 @@ This project demonstrates how to **automate data cleaning tasks** using Python a
  
 --------------------------------------------------------------
 
+## **Project 2**
 
 
+## **Project Summary: Automated Production Defect Dashboard using Excel & Tableau**
+
+### **Objective:**
+
+To build an automated and interactive Tableau dashboard that visualizes production defects and helps identify performance issues across different time periods, product lines, and shifts using data from a dynamic Excel file.
+
+---
+
+###  **Data Source:**
+
+* **Excel file** containing:
+
+  * Date of Inspection
+  * Product Line
+  * Shift (A/B/C)
+  * Total Units Inspected
+  * Total Defective Units
+
+---
+
+###  **Key Features & Metrics:**
+
+1. **Defect Rate Calculation:**
+
+   * Formula: `(Defects / Total Inspected) × 100`
+   * Created as a **calculated field** in Tableau.
+
+2. **Interactive Charts Developed:**
+
+   *  **Defect Trend Over Time** (Line Chart)
+
+     * Shows how defect rate changes daily or monthly.
+   * **Defect Rate by Shift** (Bar Chart)
+
+     * Compares defect rates across Shift A, B, and C.
+   *  **Defect Rate by Product Line** (Bar or Tree Map)
+
+     * Highlights which product lines have higher defects.
+
+3. **Filters Added:**
+
+   * Date Range Selector
+   * Shift Filter
+   * Product Line Filter
+
+4. **Tooltips and Labels:**
+
+   * Dynamic percentages shown in all visualizations.
+   * Enhanced user interaction with visual tooltips.
+
+---
+
+### **Automation Setup:**
+
+* Tableau is connected to the Excel file such that any update to the Excel data:
+
+  * Automatically reflects in Tableau upon data refresh.
+  * No manual re-import or rework required.
+
+---
+
+###  **Business Impact:**
+
+* Enables production teams and quality engineers to:
+
+  * Monitor real-time defect trends.
+  * Identify problematic shifts or product lines.
+  * Make quick decisions for process improvements.
+
+--------------------------------------------------------------------------------------------------
 
 
 
