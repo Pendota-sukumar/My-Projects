@@ -5,11 +5,8 @@ Link -----> https://drive.google.com/drive/folders/1yYvjP-NMA4tdI536kWzLcpLl9zjf
 
 #**Project-1**
 
-Here’s a concise and professional **GitHub README summary** for your **Customer Churn Prediction** project:
 
----
-
-## 🧠 Customer Churn Prediction – Machine Learning Project
+## Customer Churn Prediction – Machine Learning Project
 
 ###  Dataset
 
@@ -120,7 +117,7 @@ This project demonstrates how to **automate data cleaning tasks** using Python a
  
 --------------------------------------------------------------------------------------------------
 
-##**Project 3**
+# **Project 3**
 
 
 ##  Manufacturing Sensor Dashboard – Tableau Project
