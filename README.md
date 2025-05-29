@@ -1,6 +1,85 @@
 # My-Projects
 Link -----> https://drive.google.com/drive/folders/1yYvjP-NMA4tdI536kWzLcpLl9zjfFmWU?usp=sharing
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#**Project-1**
+
+Here’s a concise and professional **GitHub README summary** for your **Customer Churn Prediction** project:
+
+---
+
+## 🧠 Customer Churn Prediction – Machine Learning Project
+
+###  Dataset
+
+* **Source**: [Telco Customer Churn Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+* Contains information on demographics, services signed up for, billing, and churn status.
+
+---
+
+###  Tools & Libraries
+
+* **Python** (pandas, numpy, matplotlib, seaborn)
+* **EDA**: `ydata-profiling` for automated exploratory data analysis
+* **ML Models**: Logistic Regression, Random Forest
+* **Metrics**: Accuracy, Confusion Matrix, Classification Report
+
+---
+
+### Project Workflow
+
+1. **Data Ingestion**
+   Loaded Telco churn dataset using Pandas.
+
+2. **Automated EDA Pipeline**
+
+   * Used `ydata-profiling` to generate an HTML report.
+   * Identified missing values, categorical variables, skewness, and correlation.
+
+3. **Data Preprocessing**
+
+   * Handled null values.
+   * Encoded categorical features.
+   * Normalized numerical features.
+   * Converted churn column into binary target (0 = No, 1 = Yes).
+
+4. **Model Building**
+
+   * Trained a Random Forest Classifier.
+   * Achieved **\~85% accuracy**.
+   * Visualized feature importance.
+
+5. **Evaluation**
+
+   * Evaluated model using accuracy, precision, recall, and F1-score.
+
+---
+
+### Results
+
+* Model Accuracy: **85%**
+* Most important churn indicators: Contract Type, Monthly Charges, Tenure
+
+---
+
+### Outputs
+
+* `telco_churn_eda_report.html`: Auto-generated EDA report
+* `churn_model.pkl`: Trained ML model (optional to save)
+* Visualizations: Feature importance, confusion matrix
+
+---
+
+###  Key Takeaways
+
+* Early churn detection helps businesses reduce customer loss.
+* Automated EDA helps quickly understand data quality and insights.
+* Proper preprocessing significantly impacts model performance.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# **Project-2**
+
 # Data Workflow Automation using Python & GenAI
 
 This project demonstrates how to **automate data cleaning tasks** using Python and generate insightful **natural language summaries and dashboards** using **GenAI** and **Plotly visualizations**. It integrates Together AI’s LLaMA-3 model to generate human-like summaries and uses Plotly to build dashboards that can be embedded on web platforms like GitHub Pages.
@@ -39,80 +118,6 @@ This project demonstrates how to **automate data cleaning tasks** using Python a
   - Embedded in Google Colab
   - Hosted on GitHub Pages
  
---------------------------------------------------------------
-
-## **Project 2**
-
-
-## **Project Summary: Automated Production Defect Dashboard using Excel & Tableau**
-
-### **Objective:**
-
-To build an automated and interactive Tableau dashboard that visualizes production defects and helps identify performance issues across different time periods, product lines, and shifts using data from a dynamic Excel file.
-
----
-
-###  **Data Source:**
-
-* **Excel file** containing:
-
-  * Date of Inspection
-  * Product Line
-  * Shift (A/B/C)
-  * Total Units Inspected
-  * Total Defective Units
-
----
-
-###  **Key Features & Metrics:**
-
-1. **Defect Rate Calculation:**
-
-   * Formula: `(Defects / Total Inspected) × 100`
-   * Created as a **calculated field** in Tableau.
-
-2. **Interactive Charts Developed:**
-
-   *  **Defect Trend Over Time** (Line Chart)
-
-     * Shows how defect rate changes daily or monthly.
-   * **Defect Rate by Shift** (Bar Chart)
-
-     * Compares defect rates across Shift A, B, and C.
-   *  **Defect Rate by Product Line** (Bar or Tree Map)
-
-     * Highlights which product lines have higher defects.
-
-3. **Filters Added:**
-
-   * Date Range Selector
-   * Shift Filter
-   * Product Line Filter
-
-4. **Tooltips and Labels:**
-
-   * Dynamic percentages shown in all visualizations.
-   * Enhanced user interaction with visual tooltips.
-
----
-
-### **Automation Setup:**
-
-* Tableau is connected to the Excel file such that any update to the Excel data:
-
-  * Automatically reflects in Tableau upon data refresh.
-  * No manual re-import or rework required.
-
----
-
-###  **Business Impact:**
-
-* Enables production teams and quality engineers to:
-
-  * Monitor real-time defect trends.
-  * Identify problematic shifts or product lines.
-  * Make quick decisions for process improvements.
-
 --------------------------------------------------------------------------------------------------
 
 ##**Project 3**
