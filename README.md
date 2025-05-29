@@ -115,5 +115,61 @@ To build an automated and interactive Tableau dashboard that visualizes producti
 
 --------------------------------------------------------------------------------------------------
 
+##**Project 3**
 
+
+##  Manufacturing Sensor Dashboard – Tableau Project
+
+###  Project Summary
+
+This project presents an interactive **Tableau dashboard** designed to monitor and analyze machine sensor data from a manufacturing unit. The dataset includes time-stamped records of sensor readings, machine status, quality checks, and product counts.
+
+The dashboard helps track operational efficiency, identify abnormal sensor readings, and support quality control decisions.
+
+---
+
+###  Key Features
+
+* **Sensor Reading Trend:** Time-series analysis of sensor values.
+* **Machine Status Breakdown:** Visual representation of machines in *On*, *Standby*, and *Off* states.
+* **Product Count Monitoring:** Total and average product count over time.
+* **Quality Check Analysis:** Percentage of products passing/failing quality checks.
+* **Reference Lines:** Added visual indicators for normal sensor range (e.g., 20 to 70) to quickly spot anomalies.
+* **Interactive Filters:** Drill down by date, machine status, and quality check.
+
+---
+
+### 📁 Dataset Overview
+
+| Column          | Description                                    |
+| --------------- | ---------------------------------------------- |
+| `ID`            | Unique identifier for each record              |
+| `Timestamp`     | Date and time of data capture                  |
+| `SensorReading` | Numeric sensor value recorded from the machine |
+| `MachineStatus` | Operational status: On, Off, or Standby        |
+| `QualityCheck`  | Boolean value indicating pass/fail of QC       |
+| `ProductCount`  | Number of products processed at that timestamp |
+
+---
+
+###  Tools Used
+
+* **Tableau Desktop** for visualization
+* **Microsoft Excel / CSV** for data import and preprocessing
+
+---
+
+###  Insights
+
+* Machines in `Standby` state tend to show lower sensor readings.
+* Quality check failures correlate with low or extremely high sensor readings.
+* Identified optimal sensor operating range to reduce QC failures.
+
+---
+
+###  Use Cases
+
+* Predictive maintenance based on abnormal sensor trends.
+* Root cause analysis of failed quality checks.
+* Production planning and resource allocation using product count metrics.
 
