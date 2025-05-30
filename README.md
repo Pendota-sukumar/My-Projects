@@ -227,25 +227,8 @@ The dataset includes fields like:
 
 ---
 
-##  Folder Structure
 
-```
-
-📁 Sales-Forecasting-Dashboard/
-│
-├── 📁 Dataset/
-│   └── sample\_sales\_data.xlsx
-│
-├── 📁 PowerBI\_Dashboard/
-│   └── sales\_forecasting.pbix
-│
-└── README.md
-
-```
-
----
-
-##  Forecasting Logic
+# Forecasting Logic
 
 - Used Power BI’s **line chart forecasting tool** to predict upcoming sales.
 - Applied 95% confidence intervals.
@@ -267,14 +250,6 @@ The dataset includes fields like:
 - Integrate real-time data using Power BI Gateway.
 - Connect to cloud-based databases (like SQL or Azure).
 - Export monthly summary reports via Power Automate.
-
----
-
-## 🙋‍♂️ Author
-
-**Your Name**  
-📧 [your.email@example.com]  
-📍 Data Analyst | Power BI Enthusiast | Excel Automation
 
 ---
 
