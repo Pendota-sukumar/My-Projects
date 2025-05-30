@@ -1,9 +1,8 @@
 # My-Projects
 Link -----> https://drive.google.com/drive/folders/1yYvjP-NMA4tdI536kWzLcpLl9zjfFmWU?usp=sharing
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#**Project-1**
+#**Project-2**
 
 
 ## Customer Churn Prediction – Machine Learning Project
@@ -174,4 +173,111 @@ The dashboard helps track operational efficiency, identify abnormal sensor readi
 * Predictive maintenance based on abnormal sensor trends.
 * Root cause analysis of failed quality checks.
 * Production planning and resource allocation using product count metrics.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# ** Project-1**
 
+```markdown
+#  Sales Forecasting Dashboard (Power BI + Excel)
+
+This project involves analyzing and forecasting sales trends using 3 years of historical sales data. The goal is to generate insightful visualizations and automate monthly reporting to support data-driven business decisions.
+
+---
+
+##  Project Objective
+
+- Analyze 3 years of global sales data.
+- Identify trends and patterns across countries, product lines, and deal sizes.
+- Forecast future sales using Power BI’s built-in forecasting tools.
+- Automate monthly sales reporting with interactive dashboards.
+
+---
+
+##  Dataset
+
+**Source**: [Sample Sales Data from Kaggle](https://www.kaggle.com/datasets)  
+The dataset includes fields like:
+- `OrderDate` (derived from Month & Year)
+- `CustomerName`, `ProductLine`, `Country`, `DealSize`
+- `MSRP` (used as sales proxy)
+
+---
+
+##  Tools & Technologies
+
+- **Power BI Desktop (Free Version)**
+- **Microsoft Excel** (for preprocessing)
+- **DAX** (for calculated columns and KPIs)
+
+---
+
+##  Key Features
+
+-  **Sales Trend Analysis** (Monthly & Yearly)
+-  **Sales by Country & Territory**
+-  **Sales by Product Line and Deal Size**
+-  **Sales Forecasting** using Power BI's built-in analytics
+-  **Dynamic Slicers** for real-time filtering
+-  **Automated Monthly Reporting** with interactive dashboards
+
+---
+
+##  Dashboard Snapshots
+
+> Include screenshots of your dashboard here (optional)
+
+---
+
+##  Folder Structure
+
+```
+
+📁 Sales-Forecasting-Dashboard/
+│
+├── 📁 Dataset/
+│   └── sample\_sales\_data.xlsx
+│
+├── 📁 PowerBI\_Dashboard/
+│   └── sales\_forecasting.pbix
+│
+└── README.md
+
+```
+
+---
+
+##  Forecasting Logic
+
+- Used Power BI’s **line chart forecasting tool** to predict upcoming sales.
+- Applied 95% confidence intervals.
+- Time series forecasting is based on the `OrderDate` column created from `YEAR_ID` and `MONTH_ID`.
+
+---
+
+##  Insights Gained
+
+- Seasonality and peak sales periods.
+- Best-performing countries and customer segments.
+- Performance of product lines across geographies.
+- Contribution of small, medium, and large deals.
+
+---
+
+##  Future Enhancements
+
+- Integrate real-time data using Power BI Gateway.
+- Connect to cloud-based databases (like SQL or Azure).
+- Export monthly summary reports via Power Automate.
+
+---
+
+## 🙋‍♂️ Author
+
+**Your Name**  
+📧 [your.email@example.com]  
+📍 Data Analyst | Power BI Enthusiast | Excel Automation
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
